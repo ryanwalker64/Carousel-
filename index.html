@@ -10,11 +10,15 @@
 <body>
     <div class="carousel">
        
-        <div class="slides--container">
+        <div class="slides--container" data-slide-container>
+            <div class="slide" data-slide="active"><img src="https://picsum.photos/900/500"></div>
+            <div class="slide" data-slide><img src="https://i.picsum.photos/id/542/900/500.jpg?hmac=ClTCPmG0E-atBu7PRvFZnStFDagJqLxGI2JF0pggf4c"></div>
+            <div class="slide" data-slide><img src="https://i.picsum.photos/id/558/900/500.jpg?hmac=FL1RWLusb311g_wSeDEpnGvHCwD9AdjM7T2KPzjI7is"></div>
+            <div class="slide" data-slide><img src="https://i.picsum.photos/id/498/900/500.jpg?hmac=EQdY2FbfZtUxYG6Gy1qS-owoy7IvuE3HmtahmTvJPUQ"></div>
         </div>
         <div class="buttons">
-            <div class="btn" id="prev">⬅️</div>
-            <div class="btn" id="next">➡️</div>
+            <div class="btn" data-slider-button="prev">&#8656;</div>
+            <div class="btn" data-slider-button="next">&#8658;</div>
         </div>
     </div>
     <script src="./script.js"></script>
