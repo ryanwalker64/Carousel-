@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    /* border: 5px black solid; */
+    width: 900px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides--container {
+    height: inherit;
+    position: absolute;
+    display: flex;
+    transition-duration: 500ms;
+
+}
+
+.buttons {
+    position: absolute;
+    font-size: 50px;
+    display: flex;
+    width: inherit;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn:hover {
+    font-size: 55px;
+    cursor: pointer;
+}
+
+.slide {
+    height: inherit;
+    width: 900px;
+
+    /* border: 1px red solid; */
+}
